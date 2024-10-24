@@ -5,6 +5,7 @@ Contour shapefile has Elevation attribute which is used to generate bathymetry.
 W2 segments and centerline  shapefile must have 'Segment' column.
 Use W2 activate segment numbers for centerline and W2 segments shapefile, e.g., the first segment should be 2, the second segment should be 3, etc.
 Do not include inacitve cell numbers the program will add inactive cells to the output.
+For any inquries please contact me at Afshin.shabani64@gmail.com
 '''
 
 import geopandas as gpd
