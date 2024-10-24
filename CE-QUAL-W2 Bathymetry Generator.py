@@ -5,7 +5,7 @@ Contour shapefile has Elevation attribute which is used to generate bathymetry.
 W2 segments and centerline  shapefile must have 'Segment' column.
 Use W2 activate segment numbers for centerline and W2 segments shapefile, e.g., the first segment should be 2, the second segment should be 3, etc.
 Do not include inacitve cell numbers the program will add inactive cells to the output.
-For any inquries please contact me at Afshin.shabani64@gmail.com
+For inquiries or to report bugs, please contact afshin.shabani64@gamil.com
 '''
 
 import geopandas as gpd
@@ -550,7 +550,7 @@ def show_help():
        Note: In CE-QUAL-W2, each branch or waterbody starts and ends with inactive segments. For example, there are two inactive segments when a branch is added to a waterbody. 
        When adding a branch to the main waterbody, users should account for these inactive segments and name the segments appropriately.
 
-       For inquiries or to report bugs, please contact afshin.shabani@tetratech.com or afshin.shabani64@gamil.com
+       For inquiries or to report bugs, please contact afshin.shabani64@gamil.com
     """
     help_window = tk.Toplevel(root)
     help_window.title("Notes")
