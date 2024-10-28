@@ -6,9 +6,9 @@ To use this tool, users must provide three key input datasets:
 
 1. Topographic Contours: The contours should be supplied as a shapefile, with an elevation attribute that the program will use to generate the bathymetry. It's important that the contour shapefile is free from geometry errors, such as dangling or self-intersecting lines, which could lead to processing issues.
 
-2. River Centerline: This shapefile represents the main axis of the river. It must contain a 'Segment' column that correlates with the CE-QUAL-W2 segments and should not intersect with multiple W2 segments.
+2. River Centerline: This shapefile represents the main axis of the river.
 
-3. W2 Segments: A shapefile defining the W2 model segments, which must also include a 'Segment' column. Each segment should correspond to a CE-QUAL-W2 segment number, following the numbering conventions of the model (i.e., the first segment is 2, the second is 3, and so on).
+3. W2 Segments: A shapefile defining the W2 model segments, which must also include a 'Segment' column. Each segment should correspond to a CE-QUAL-W2 segment number, following the numbering conventions of the model (i.e., the first segment is 2, the second is 3, and so on). The W2 segments should not be interescted by two centerlines.
 
 Key Features and Assumptions:
 The tool expects the W2 segments and centerline shapefiles to use CE-QUAL-W2's active segment numbering system. Please see the example file. 
