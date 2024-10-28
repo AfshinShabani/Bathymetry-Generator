@@ -15,3 +15,5 @@ The tool expects the W2 segments and centerline shapefiles to use CE-QUAL-W2's a
 Inactive cells are automatically accounted for by the program, meaning users do not need to include them in the input data—the program will insert inactive cells into the output where necessary.
 This process ensures that the bathymetric data aligns correctly with the CE-QUAL-W2 model grid, providing an accurate representation of depth and riverbed structure for subsequent simulations.
 By using this bathymetry generator, CE-QUAL-W2 modelers can save significant time in creating accurate bathymetric inputs and avoid potential errors in manually configuring bathymetric layers.
+
+You can download the executable program for Windows and an example file here https://w2-bathymetry-generator.s3.us-east-2.amazonaws.com/W2+Bathymetry+Generator.zip
